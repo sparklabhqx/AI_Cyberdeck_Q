@@ -1,2 +1,4 @@
 config/unoq.env
 firmware/giga_ai_terminal/giga_config.h
+__pycache__/
+*.pyc
