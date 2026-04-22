@@ -42,8 +42,8 @@ Known-good bridge endpoint shape:
 
 ## Golden Path
 
-1. Read [docs/hardware-wiring.md](/Users/flo/arduino-ai-cyberdeck/docs/hardware-wiring.md:1).
-2. Read [docs/first-boot.md](/Users/flo/arduino-ai-cyberdeck/docs/first-boot.md:1).
+1. Read [docs/hardware-wiring.md](docs/hardware-wiring.md).
+2. Read [docs/first-boot.md](docs/first-boot.md).
 3. Copy `config/unoq.env.example` to `config/unoq.env` and fill it in.
 4. Copy `firmware/giga_ai_terminal/giga_config.example.h` to `firmware/giga_ai_terminal/giga_config.h` and fill it in.
 5. Run `scripts/setup_unoq.sh`.
@@ -60,8 +60,8 @@ This repo installs the runtime pieces, but a completely fresh UNO Q still needs:
 - the required shared libraries in `~/lib`
 - a GGUF model in `~/models`
 
-Those steps are documented in [docs/first-boot.md](/Users/flo/arduino-ai-cyberdeck/docs/first-boot.md:1).
+Those steps are documented in [docs/first-boot.md](docs/first-boot.md).
 
 ## Developer Path
 
-Use [docs/developer-workflow.md](/Users/flo/arduino-ai-cyberdeck/docs/developer-workflow.md:1) if you want to rebuild, modify, or swap parts of the system instead of just reproducing the known-good setup.
+Use [docs/developer-workflow.md](docs/developer-workflow.md) if you want to rebuild, modify, or swap parts of the system instead of just reproducing the known-good setup.
