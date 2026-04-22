@@ -1,0 +1,14 @@
+[Unit]
+Description=UNO Q USB keyboard terminal loop
+After=giga-wifi-bridge.service
+Wants=giga-wifi-bridge.service
+
+[Service]
+Type=simple
+ExecStart=/home/arduino/start_usb_giga_terminal.sh
+Restart=always
+RestartSec=2
+WorkingDirectory=/home/arduino
+
+[Install]
+WantedBy=default.target

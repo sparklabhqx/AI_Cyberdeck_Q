@@ -1,0 +1,12 @@
+[Unit]
+Description=UNO Q GIGA Wi-Fi bridge
+
+[Service]
+Type=simple
+ExecStart=/home/arduino/start-giga-wifi-bridge.sh
+Restart=always
+RestartSec=2
+WorkingDirectory=/home/arduino
+
+[Install]
+WantedBy=default.target
