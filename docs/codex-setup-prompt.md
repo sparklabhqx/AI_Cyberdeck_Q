@@ -6,7 +6,7 @@ Paste the prompt below into Codex if you want Codex to perform the full setup fo
 Set up this Arduino AI Cyberdeck project end-to-end on this machine and on the connected hardware.
 
 Project root:
-- <replace with the local path to this cloned repo>
+- https://github.com/sparklabhqx/AI_Cyberdeck_Q
 
 Your job:
 - get the project into a working state on fresh or partially configured hardware
