@@ -2,6 +2,9 @@
 
 Reproducible setup for the Arduino UNO Q + Arduino GIGA R1 WiFi + GIGA Display Shield + Waveshare 1.51" transparent OLED build.
 
+Just paste this into Codex, Claude Code, or whatever coding agent you use to start the setup:
+[docs/codex-setup-prompt.md](docs/codex-setup-prompt.md)
+
 This project splits the system into:
 
 - UNO Q Linux side: keyboard capture, local LLM execution, HTTP bridge
